@@ -7,3 +7,42 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+header {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    color: black;
+    padding-right: 10px;
+}
+
+li img {
+    width: 110px;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+li button {
+    vertical-align: 5px;
+}
+
+.bg-blue {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}

@@ -43,7 +43,7 @@ header {
     margin-left: 240px;
     width: 65%;
     height: 100px;
-    text-align: center;
+    text-align: left;
     font-size: 45px;
 }
 
@@ -100,6 +100,21 @@ header {
     flex-direction: column;
 }
 
+.col-70 {
+    width: 420px;
+    margin-top: 70px;
+    margin-left: 197px;
+    margin-bottom: 80px;
+}
+
+.col-30 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 27%;
+    margin-top: 70px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -121,6 +136,13 @@ button {
 
 li button {
     vertical-align: 5px;
+}
+
+.bg-white {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 12px;
 }
 
 .bg-blue {
@@ -146,7 +168,7 @@ li button {
     margin: 10px;
 }
 
-img {
+.jumbotron > img {
     width: 800px;
 }
 
@@ -261,4 +283,20 @@ input[type="radio" i] {
 
 .title {
     font-size: 30px;
+}
+
+.col-70 > img {
+    width: 400px;
+}
+
+.text-3 {
+    font-size: 12px;
+}
+
+.title-3 {
+    margin-top: 40px;
+}
+
+.title-3, .text-3, .bg-white {
+    margin-left: 10px;
 }

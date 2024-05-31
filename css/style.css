@@ -55,6 +55,7 @@ header {
 .col-65 {
     margin-top: 30px;
     margin-left: 240px;
+    margin-bottom: 40px;
     width: 65%;
     height: 100px;
     text-align: left;
@@ -75,9 +76,6 @@ header {
 .col-45 {
     width: 45%;
     height: 150px;
-    position: absolute;
-    top: 150px;
-    left: 520px;
 }
 
 .col-50 {
@@ -85,6 +83,12 @@ header {
     margin-left: 200px;
     width: 50%;
     height: 60px;
+}
+
+.col-50 > .title2 {
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 10px;
 }
 
 .col-50-a {
@@ -183,7 +187,8 @@ li button {
 }
 
 .jumbotron > img {
-    width: 800px;
+    width: 700px;
+    margin-top: 20px;
 }
 
 .text  {
@@ -320,4 +325,11 @@ input[type="radio" i] {
 
 .title-3, .text-3, .bg-white {
     margin-left: 10px;
+}
+
+.link {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 12px;
 }

@@ -113,6 +113,20 @@ header {
     margin-bottom: 100px;
 }
 
+.col-foot {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+    width: 180px;
+    line-height: 2;
+}
+
+.special {
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
 .col-50 > .title-2 {
     margin-top: 70px;
     font-size: 30px;
@@ -184,6 +198,11 @@ header {
 .hr-medium {
     width: 80px;
     margin-left: 30px;
+}
+
+.hr-medium-2 {
+    width: 80px;
+    margin-top: 100px;
 }
 
 .text-4 {
@@ -547,6 +566,19 @@ input[type="radio" i] {
     width: 700px;
 }
 
-.fa-solid .fa-angle-down {
+.fa-angle-down {
     margin-left: 200px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100vw;
+}
+
+.the-end-finally {
+    color: grey;
+    font-size: 12px;
+    margin-top: 30px;
 }
